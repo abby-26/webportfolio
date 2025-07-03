@@ -50,26 +50,38 @@
   
   }
 
+
   #tools img {
-    height: 100px;
-    width: 100px;
+    max-width: 80px;
+    height: auto;
   }
 
 
 #button {
-  background: #c8a676;
+  background: #a67c52;
   font-family: "Albert Sans", sans-serif;
-  font-weight: 300;
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 19px;
   text-align: center;
-  color: white;
+  color: #fff;
+  transition: background-color 0.3s ease;
 }
 
 #footer{
   background: #c8a676;
   font-family: "Albert Sans", sans-serif;
   text-align: center;
-  color: #FFF2E4;
+  color: #3e2d1a;
 }
   
+
+.card-custom {
+  max-width: 18rem;
+  width: 100%;
+}
+
+
+.map-frame {
+  border: 0;
+}
